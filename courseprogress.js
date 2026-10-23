@@ -13,6 +13,7 @@ const progress_temp = text.split(",");
 
 console.log(progress_temp)
 
+/*
 lectures = new Array();
 problem_sets = new Array();
 assessments = new Array();
@@ -36,3 +37,4 @@ console.log(lectures)
 console.log(problem_sets)
 console.log(assessments)
 console.log(design_project)
+*/
