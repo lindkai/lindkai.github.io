@@ -1,6 +1,6 @@
 console.log("Hello World!");
 
 //read csv file
-fetch("study-progress.csv")
-  const result = await response.csv()
-    console.log(result)
+fetch('study-progress.csv')
+  .then(response => response.text())
+  .then(text => console.log(text))
